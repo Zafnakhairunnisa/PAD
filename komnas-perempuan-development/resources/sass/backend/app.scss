@@ -1,0 +1,22 @@
+@import "../global";
+
+$primary: #c0392b;
+
+// Coreui
+@import "~@coreui/coreui/scss/coreui";
+@import "~@coreui/icons/css/free.min.css";
+
+.filepond--credits {
+    display: none !important;
+}
+
+.input-group > .input-group-text {
+    border-radius: 0px;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+    border-right: 0;
+}
+
+.table th {
+    white-space: nowrap;
+}

@@ -1,0 +1,59 @@
+// @import "../global";
+// @import "global";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+// Variables
+// @import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+// @import "~ant-design-vue/dist/antd.variable.min.css";
+
+.text-right {
+    text-align: right;
+    display: block;
+}
+
+.table-striped td {
+    background-color: #fafafa!important;
+}
+
+tr:hover td {
+    background-color: #f9ebea!important;
+}
+
+tbody .ant-table-cell-fix-left {
+    text-align: left !important;
+}
+
+.datalist .ant-table-row:last-child {
+    font-weight: inherit!important;
+}
+
+.ant-table-thead th, .ant-table-row:last-child {
+    font-weight: 600!important;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 24px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D55143!important;
+    border: 2px solid #f0f0f0;
+    border-radius: 24px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e37b6b!important;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #9a2e22!important;
+}
